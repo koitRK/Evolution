@@ -19,7 +19,7 @@ public:
     float cost_b;
 
     /* USER CODE: PUBLIC MEMBERS - END */
-    /* You can add custom methods, i.e "create_individual_with_random_values()" */
+    /* You can add custom methods, eg. "create_individual_with_random_values()" */
 
     /* Must define sum_total_cost() method that calculates total cost for an individual. total_cost is used in evaluation */
     void sum_total_cost()
@@ -50,7 +50,7 @@ public:
     population_A(int pop_size, T_cost_function cost_fun, T_mut_function mut_fun) : population<T_individual, T_cost_function, T_mut_function>(pop_size, cost_fun, mut_fun) {}
     
     /* USER CODE: PUBLIC MEMBERS - START */
-    /* You can add custom methods, i.e "fill_population_with_random_individuals()"
+    /* You can add custom methods, eg. "fill_population_with_random_individuals()"
     /* USER CODE: PUBLIC MEMBERS - END */
 };
 
